@@ -1,0 +1,27 @@
+#### Edit this file with your own information and rename to terraform.tfvars
+
+# Jenkins - terraform.tfvars
+# Edit this file as needed
+
+# AWS access credentials
+access_key = "awsaccesskey"
+secret_key = "awssecretkey"
+region = "us-east-1"
+
+# New VPC cidr block
+vpc_cidr_block = "0.0.0.0/0"
+
+# cidr block to restrict ingress traffic from a certain IP range. Set to 0.0.0.0/0 for unrestricted access
+ingress_cidr_block = "0.0.0.0/0"
+
+# AMI id
+ami = "ami-17e3916d"
+
+# AWS instance type
+instance_type = "t2.micro"
+
+# AWS key pair
+keyname = "aws"
+
+# AWS hosted zone to look up or set
+hosted_zone = "aws.example.com."
