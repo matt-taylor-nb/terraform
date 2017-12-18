@@ -24,7 +24,7 @@ instance_type = "t2.micro"
 keyname = "awskey"
 
 # SSH key location locally for Ansible
-pk_location = "~./aws.pem"
+pk_location = "~/aws.pem"
 
 # AWS Route 53 hosted zone where you want the DNS entry
 hosted_zone = "aws.example.com."

@@ -1,6 +1,6 @@
 #### Edit this file with your own information and rename to terraform.tfvars
 
-# Jenkins - terraform.tfvars
+# Jump-Host - terraform.tfvars
 # Edit this file as needed
 
 # AWS access credentials

@@ -1,0 +1,12 @@
+jump-host/terraform.tfstate
+jump-host/terraform.tfstate.backup
+jump-host/terraform.tfvars
+
+jenkins/terraform.tfstate
+jenkins/terraform.tfstate.backup
+jenkins/terraform.tfvars
+
+jenkins/.terraform/
+jump-host/.terraform/
+
+
