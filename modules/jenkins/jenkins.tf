@@ -14,7 +14,7 @@ resource "aws_vpc" "tf-jenkins" {
   enable_dns_hostnames = "true"
 
   tags {
-    Name = "TF - Jenkins - test"
+    Name = "TF - Jenkins"
   }
 }
 
